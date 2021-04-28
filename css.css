@@ -1,0 +1,89 @@
+body {
+  
+}
+div {
+  height:200px;
+  width:600px;  
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: white;
+  background-color: darkred;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: black;
+  background-color: none;
+  padding-left: 25px;
+  padding-top: 5px;
+  padding-bottom: 2px;
+}
+input {
+  position: relative;
+  right: -25px;
+  border: 2px solid saddlebrown;
+  border-radius: 5px;
+  height: 35px;
+  padding-left: 10px;
+ 
+}
+#table {
+  position:relative;
+  left: 25px;
+  top: 15px;
+}
+table {
+  border: 1px solid black;
+  border-collapse: collapse; 
+  width: 90%;
+  table-layout: fixed;
+}
+#leftheading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  background-color: saddlebrown;
+  color: white;
+  padding-top: 10;
+  padding-bottom: 10;
+  text-align: center;
+  width: 40%;
+}
+#rightheading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  background-color: saddlebrown;
+  color: white;
+  padding-top: 10;
+  padding-bottom: 10;
+  text-align: center;
+}
+#left {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: black; 
+  padding-top: 10;
+  padding-bottom: 10;
+  text-align: center;
+  overflow: hidden;
+}
+#right {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: black; 
+  padding-top: 10;
+  padding-bottom: 10;
+  text-align: center;
+}
+.grey {
+background-color: beige;
+}
+
