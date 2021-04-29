@@ -26,6 +26,7 @@ h2 {
 input {
   position: relative;
   right: -25px;
+  top: -90px;
   border: 2px solid saddlebrown;
   border-radius: 5px;
   height: 35px;
@@ -35,7 +36,7 @@ input {
 #table {
   position:relative;
   left: 25px;
-  top: 15px;
+  top: 50px;
 }
 table {
   border: 1px solid black;
@@ -62,7 +63,7 @@ table {
   padding-bottom: 10;
   text-align: center;
 }
-#left {
+.left {
   border: 1px solid grey;
   border-collapse: collapse;
   font-family: Arial, Helvetica, sans-serif;
@@ -73,7 +74,7 @@ table {
   text-align: center;
   overflow: hidden;
 }
-#right {
+.right {
   border: 1px solid grey;
   border-collapse: collapse;
   font-family: Arial, Helvetica, sans-serif;
