@@ -2,25 +2,30 @@
 <html>
 <head>
 <link rel="stylesheet" href="css.css">
+<script src="js.js"></script> 
 </head>
-<body>
+<body onload = "load()">
+
 <div>
 <h1>Name variations</h1>
 <h2>Enter your name</h2>
-<input></input>
+
 <div id=table>
 <table>
 
 <tr><th id="leftheading">Variation</th><th id="rightheading">Result</th></tr>
-<tr id="row"><td id="left">Number of characters</td><td id="right">a</td></tr>
-<tr id="row" class="grey"><td id="left">First character</td><td id="right">a</td></tr>
-<tr id="row"><td id="left">Last character</td><td id="right">a</td></tr>
-<tr id="row" class="grey"><td id="left">Lower case</td><td id="right">a</td></tr>
-<tr id="row"><td id="left">Upper case</td><td id="right">a</td></tr>
-<tr id="row" class="grey"><td id="left">Capitalize</td><td id="right">a</td></tr>
-<tr id="row"><td id="left">Without leading<br>and trailing spaces</td><td id="right">a</td></tr>
+<tr id="row"><td class="left">Number of characters</td><td class="right" id="numberofcharacters"></td></tr>
+<tr id="row" class="grey"><td class="left">First character</td><td class="right" id="firstcharacter"></td></tr>
+<tr id="row"><td class="left">Last character</td><td class="right" id="lastcharacter"></td></tr>
+<tr id="row" class="grey"><td class="left">Lower case</td><td class="right" id="lowercase"></td></tr>
+<tr id="row"><td class="left">Upper case</td><td class="right" id="uppercase"></td></tr>
+<tr id="row" class="grey"><td class="left">Capitalize</td><td class="right" id="capitalize"></td></tr>
+<tr id="row"><td class="left">Without leading<br>and trailing spaces</td><td class="right" id="spaces"></td></tr>
 </table>
 </div>
+</div>
+<div>
+<input type="text" id="entername" oninput="getall()"></input>
 </div>
 </body>
 </html>
